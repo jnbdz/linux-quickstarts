@@ -1,5 +1,4 @@
-<img src="assets/Tux.svg" alt="Linux (Tux)" style="width: 160px;" align="right">
-# linux-quickstarts
+<img src="assets/Tux.svg" alt="Linux (Tux)" style="width: 160px;" align="right"># linux-quickstarts
 Linux Quickstarts... Some of my past notes.
 
 ## Resources
