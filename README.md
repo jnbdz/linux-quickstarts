@@ -8,7 +8,7 @@ Contains command lists with some example of usage. Also this repo includes usefu
 ## Command lists
 ### Multimedia
 #### Images
-- `comnvert` - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
+- `convert` - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
 - `mogrify` - resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. Mogrify overwrites the original image file, whereas, convert-im6.q16(1) writes to a different image file.
     - `find . -name "*.jpg" -exec mogrify -format png {} \;` - Modify all the JPGs to PNG.
 
