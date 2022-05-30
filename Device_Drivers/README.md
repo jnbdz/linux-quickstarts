@@ -2,6 +2,9 @@
 
 # Device Drivers | Linux | Quickstarts
 
+## Command list
+- `ioctl` - control device
+
 ## Resources
 
 ## Credits

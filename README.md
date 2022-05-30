@@ -6,11 +6,6 @@ Linux Quickstarts... Some of my past notes.
 Contains command lists with some example of usage. Also this repo includes useful links related to Linux.
 
 ## Command lists
-### Kernel
-#### Module
-- `lsmod` - Show the status of modules in the Linux Kernel (you get the module name, size and "Used by")
-- `insmod` - Simple program to insert a module into the Linux Kernel
-- `rmmod` - Simple program to remove a module from the Linux Kernel
 ### Multimedia
 #### Images
 - `convert` - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
