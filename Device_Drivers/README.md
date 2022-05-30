@@ -1,6 +1,6 @@
 <img src="../assets/5197178268_725d5a995b_b.jpg" alt="Tux nov2011" style="width: 230px;" align="right">
 
-# Devices | Linux | Quickstarts
+# Device Drivers | Linux | Quickstarts
 
 ## Resources
 
