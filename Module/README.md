@@ -12,6 +12,12 @@ vagrant up
 
 It will make a directory: `.vagrant` (this directory should not be commited to the repo)
 
+### Package manager in the VM
+You will need to install some packages. Since the distro is Alpine you will need to use `apk`: 
+```bash
+sudo apk add vim make gcc git
+```
+
 ## Command list
 - `lsmod` - Show the status of modules in the Linux Kernel (you get the module name, size and "Used by")
 - `insmod` - Simple program to insert a module into the Linux Kernel
