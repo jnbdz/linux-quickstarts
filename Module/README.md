@@ -2,6 +2,16 @@
 
 # Module | Linux | Quickstarts
 
+## Dev setup
+To start developing a Linux kernel module or device driver it is a good idea to do it in a VM so that if any mistakes occure it won't take down the host.
+
+To make things easy I added a simple `Vagrantfile`. To start everythign all you need is to use the command (this needs to be executed inside the directory where `Vagrantfile` is present): 
+```bash
+vagrant up
+```
+
+It will make a directory: `.vagrant` (this directory should not be commited to the repo)
+
 ## Command list
 - `lsmod` - Show the status of modules in the Linux Kernel (you get the module name, size and "Used by")
 - `insmod` - Simple program to insert a module into the Linux Kernel
