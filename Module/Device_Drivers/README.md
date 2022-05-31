@@ -1,4 +1,4 @@
-<img src="../assets/5197178268_725d5a995b_b.jpg" alt="Tux nov2011" style="width: 280px;" align="right">
+<img src="../../assets/5197178268_725d5a995b_b.jpg" alt="Tux nov2011" style="width: 280px;" align="right">
 
 # Device Drivers | Linux | Quickstarts
 
