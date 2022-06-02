@@ -20,3 +20,5 @@ To init AIDE to get the baseline:
 sudo aideinit
 ```
 
+## Resources
+- [AIDE - Advanced Intrusion Detection Environment | github.io](https://aide.github.io/)
