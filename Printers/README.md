@@ -3,6 +3,7 @@
 # Printers | Linux | Quickstarts
 
 ## Resources
+### Printing
 - [CUPS | Wikipedia](https://en.wikipedia.org/wiki/CUPS)
 - [CUPS.org](https://www.cups.org/)
 - [How to install and configure printers on Kali Linux | Medium](https://subba-lakshmi.medium.com/how-to-install-and-configure-printers-on-kali-linux-78a0476b3cfe)
@@ -13,3 +14,5 @@
 - [Printing from the Linux Command Line - Linux.com](https://www.linux.com/training-tutorials/printing-linux-command-line/)
 - [Linux printing made easy, Part 3 | Computerworld](https://www.computerworld.com/article/2798448/linux-printing-made-easy--part-3.html)
 - [OpenPrinting | GitHub.io](https://openprinting.github.io/)
+### Scanning
+- [scanner.sh | gist.github.com](https://gist.github.com/jnbdz/4dddb7eb38f97a15042de270d123849f)
