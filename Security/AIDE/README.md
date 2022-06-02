@@ -14,6 +14,7 @@ Get the version:
 aide -v
 ```
 **Second step:** 
+
 To init AIDE to get the baseline: 
 ```bash
 sudo aideinit
