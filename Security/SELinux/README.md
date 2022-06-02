@@ -9,7 +9,7 @@
 - [SELinux | debian.org](https://wiki.debian.org/SELinux)
 ### Get Help
 - [Mailing lists for Debian](https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/selinux-devel)
-- [#selinux | IRC](irc://chat.freenode.org/selinux)
+- <a href="irc://chat.freenode.org/selinux">#selinux | IRC</a> (irc://chat.freenode.org/selinux)
 - [An Introduction to the NSA's Security-Enhanced Linux: SELinux | sans.org](https://sansorg.egnyte.com/dl/MmS5vwhgsU)
 
 ## Credits
