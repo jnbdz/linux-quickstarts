@@ -1,3 +1,5 @@
+<img src="../../assets/tux-condom.jpg" alt="SELinux Logo" style="width: 280px;" align="right">
+
 # seccomp | Security | Linux | Quickstarts
 
 ## Resources
