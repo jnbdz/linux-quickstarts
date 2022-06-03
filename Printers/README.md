@@ -1,6 +1,7 @@
 <img src="../assets/Nintendo_PocketPrinter.jpg" alt="Nintendo printer" style="width: 280px;" align="right">
 
 # Printers | Linux | Quickstarts
+CUPS control panel: http://127.0.0.1:631/
 
 ## Resources
 ### Printing
