@@ -4,6 +4,10 @@
 Download: 
 https://www.debian.org/download
 
+To have support for non-free firmware: 
+https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/11.4.0-live+nonfree/amd64/iso-hybrid/
+
+
 ```bash
 lsblk
 # or
