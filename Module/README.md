@@ -25,6 +25,7 @@ sudo apk add vim make gcc git
 - `modprobe` - Add and remove modules from the Linux Kernel
 
 ## Resources
+- [Chapter 12 - Modules | TLDP](https://tldp.org/LDP/tlk/modules/modules.html)
 - [What is the difference between kernel drivers and kernel modules?](https://unix.stackexchange.com/questions/47208/what-is-the-difference-between-kernel-drivers-and-kernel-modules)
 ### Using Rust
 - [Linux kernel modules in safe Rust](https://github.com/fishinabarrel/linux-kernel-module-rust)
