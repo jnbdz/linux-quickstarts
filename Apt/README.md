@@ -1,3 +1,5 @@
+<img src="./assets/Apt-get_logo.jpg" alt="APT logo" style="width: 450px;" align="right">
+
 # APT | Linux | Quickstarts
 
 ## "following signatures couldn’t be verified because the public key is not available"
