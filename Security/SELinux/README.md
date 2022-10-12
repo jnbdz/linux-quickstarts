@@ -3,7 +3,28 @@
 # SELinux | Security | Linux | Quickstarts
 
 ## Debian
-### Setup
+> WARNING! I have run into too many [issues](https://serverfault.com/questions/1112610/podman-is-unable-to-start-container-with-selinux-sd-bus-call-permission-error) with [Debian](https://www.debian.org/) to even attempt to continue with it.
+> I decided to use [Rocky OS](https://rockylinux.org/) Linux distro because of its better support of SELinux.
+
+## Rocky OS
+It already comes with it and in my experience it is already set as enforced by default.
+
+## Containers
+### Podman
+With Rocky OS it works almost out of the box.
+
+Here are packages you might want to install: 
+```bash
+yum install systemd-container podman container-tools
+```
+
+> NOTE: `container-tools` has `udica`.
+
+> IMPORTANT! For rootless you need to login into the account with this command: `machinectl shell jn@` (you need `yum install systemd-container`)
+> You might also be able to do the same with: `su --login jn`
+> The reason is explained here: https://www.redhat.com/sysadmin/sudo-rootless-podman
+
+For more: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/using_selinux/index#creating-selinux-policies-for-containers_using-selinux
 
 ## Resources
 - [SELinux | debian.org](https://wiki.debian.org/SELinux)
