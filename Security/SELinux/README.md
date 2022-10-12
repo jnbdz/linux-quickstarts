@@ -1,4 +1,4 @@
-<img src="../../assets/SELinux_logo.svg" alt="SELinux Logo" style="width: 280px;" align="right">
+<img src="../../assets/SELinux_logo.svg" alt="SELinux Logo" style="width: 350px;" align="right">
 
 # SELinux | Security | Linux | Quickstarts
 
