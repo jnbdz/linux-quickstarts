@@ -9,8 +9,13 @@
 ## Rocky OS
 It already comes with it and in my experience it is already set as enforced by default.
 
-## Containers
-### Podman
+### Supporting Tools
+```bash
+# yum install setools-console policycoreutils-python-utils
+```
+
+### Containers
+#### Podman
 With Rocky OS it works almost out of the box.
 
 Here are packages you might want to install: 
