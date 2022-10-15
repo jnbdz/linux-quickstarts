@@ -26,7 +26,34 @@ yum install systemd-container podman container-tools
 
 For more: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/using_selinux/index#creating-selinux-policies-for-containers_using-selinux
 
+## Linux Security Modules (LSM)
+LSM is a Linux subsystem called before processing a user space request.
+
+Flow can be found in the document directory.
+
+Discretionary access control (DAC) is called before the LSM.
+
+LSM can called any module for security checks and one of them is SELinux with the mandatory access control (MAC) (SELinux supports other types of security layers).
+
+Since DAC is called before the LSM that calls MAC of SELinux, DAC takes precedents.
+
 ## DAC commands
+```bash
+$ setfacl -m u:admin:rw /srv/backup/setup.conf
+```
+
+```bash
+$ getfacl /srv/backup/setup.conf
+getfacl: Removing leading '/' from absolute path names
+# file: srv/backup/setup.conf
+# owner: root
+# group: root
+user::rw-
+user::admin:rw-
+group::r--
+mask::rw-
+other::r-
+```
 
 ## Resources
 - [SELinux | debian.org](https://wiki.debian.org/SELinux)
