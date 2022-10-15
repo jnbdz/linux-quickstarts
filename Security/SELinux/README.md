@@ -29,7 +29,7 @@ For more: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux
 ## Linux Security Modules (LSM)
 LSM is a Linux subsystem called before processing a user space request.
 
-Flow can be found in the document directory.
+Flow can be found in the document directory ([9781800201477_ColorImages.pdf](./documents/9781800201477_ColorImages.pdf)).
 
 Discretionary access control (DAC) is called before the LSM.
 
@@ -38,10 +38,12 @@ LSM can called any module for security checks and one of them is SELinux with th
 Since DAC is called before the LSM that calls MAC of SELinux, DAC takes precedents.
 
 ## DAC commands
+Grant `admin` read-write access to a file: 
 ```bash
 $ setfacl -m u:admin:rw /srv/backup/setup.conf
 ```
 
+View the POSIX ACLs: 
 ```bash
 $ getfacl /srv/backup/setup.conf
 getfacl: Removing leading '/' from absolute path names
@@ -54,6 +56,15 @@ group::r--
 mask::rw-
 other::r-
 ```
+
+## List of Other LSM Implementation
+- AppArmor
+- Smack
+- TOMOYO Linux
+- LoadPin
+- Yama
+- SafeSetId
+- Lockdown
 
 ## Resources
 - [SELinux | debian.org](https://wiki.debian.org/SELinux)
