@@ -71,6 +71,41 @@ other::r-
 - SafeSetId
 - Lockdown
 
+## Labeling (resources & objects)
+Used to allow or deny a particular action.
+
+Decisions are based on the context of both the **subject** (init the action) and the **object** (target of the action).
+
+**Context** of a process is what identifies the process to SELinux.
+
+SELinux: 
+- Does not care about what the process is called
+- Has no notion of Linux process ownership
+- It only wants to know the context of that process is (represented to users and administrators as a **label**)
+
+> **Label** and **context** are often used interchangeably.
+> That said, there is a technical distinction.
+
+Root user: 
+```bash
+# id -Z
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+```
+Rootless user: 
+```bash
+$ id -Z
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+```
+
+> `-Z` is for displaying LSM-based security.
+
+```bash
+# ps -eZ | grep sshd
+system_u:system_r:sshd_t:s0-s0:c0.c1023 583 ?    00:00:00 sshd
+system_u:system_r:sshd_t:s0-s0:c0.c1023 686 ?    00:00:00 sshd
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 700 ? 00:00:00 sshd
+```
+
 ## Resources
 - [SELinux | debian.org](https://wiki.debian.org/SELinux)
 ### Get Help
