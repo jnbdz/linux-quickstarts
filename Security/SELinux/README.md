@@ -106,6 +106,42 @@ system_u:system_r:sshd_t:s0-s0:c0.c1023 686 ?    00:00:00 sshd
 unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 700 ? 00:00:00 sshd
 ```
 
+```bash
+$ ls /proc/$$/attr
+current  exec  fscreate  keycreate  prev  sockcreate
+```
+
+```bash
+# ps -eZ | grep dbus
+system_u:system_r:system_dbusd_t:s0-s0:c0.c1023 555 ? 00:00:00 dbus-broker-lau
+system_u:system_r:system_dbusd_t:s0-s0:c0.c1023 558 ? 00:00:00 dbus-broker
+```
+
+```bash
+# seinfo --role
+
+Roles: 14
+   auditadm_r
+   dbadm_r
+   guest_r
+   logadm_r
+   nx_server_r
+   object_r
+   secadm_r
+   staff_r
+   sysadm_r
+   system_r
+   unconfined_r
+   user_r
+   webadm_r
+   xguest_r
+```
+
+```bash
+# sestatus | grep "Loaded policy name"
+Loaded policy name:             targeted
+```
+
 ## Resources
 - [SELinux | debian.org](https://wiki.debian.org/SELinux)
 ### Get Help
