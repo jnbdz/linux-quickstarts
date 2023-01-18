@@ -1,3 +1,5 @@
+<img src="assets/1280px-SixHardDriveFormFactors.jpg" alt="Six Hard Drive Form Factors" style="width: 450px;" align="right">
+
 # Storage | Linux | Quickstarts
 
 ## Install Debian on a USB
@@ -21,3 +23,6 @@ sudo umount /dev/sdx1
 ```bash
 sudo dd bs=4M if=/path/to/debian-10.0.0-amd64-netinst.iso of=/dev/sdx status=progress oflag=sync
 ```
+
+## :copyright: Copyright
+- [1280px-SixHardDriveFormFactors.jpg](https://en.wikipedia.org/wiki/Hard_disk_drive#/media/File:SixHardDriveFormFactors.jpg)
