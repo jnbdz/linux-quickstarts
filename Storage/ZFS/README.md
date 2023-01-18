@@ -2,7 +2,7 @@
 
 # OpenZFS
 
-## Resources
+## :link: Resources
 - [ZFS | Wikipedia](https://en.wikipedia.org/wiki/ZFS)
 - [ZFS module | Ansible](https://docs.ansible.com/ansible/latest/collections/community/general/zfs_module.html)
 - [RHEL-based distro | openzfs.github.io](https://openzfs.github.io/openzfs-docs/Getting%20Started/RHEL-based%20distro/index.html)
