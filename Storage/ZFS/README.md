@@ -8,5 +8,5 @@
 - [RHEL-based distro | openzfs.github.io](https://openzfs.github.io/openzfs-docs/Getting%20Started/RHEL-based%20distro/index.html)
 - [How to install and setup ZFS in Rocky Linux 9 | golinuxcloud.com](https://www.golinuxcloud.com/zfs-rocky-linux-9/)
 
-## :copy: Copyright
+## :copyright: Copyright
 - [OpenZFS - logo](https://en.wikipedia.org/wiki/ZFS#/media/File:OpenZFS_logo.svg)
