@@ -2,6 +2,9 @@
 
 # OpenZFS
 ## Install
+- Maybe start from here: [RHEL-based distro](https://openzfs.github.io/openzfs-docs/Getting%20Started/RHEL-based%20distro/index.html)
+- RPM files (versions): [zfsonlinux.github.com | GitHub](https://github.com/zfsonlinux/zfsonlinux.github.com/tree/master/epel)
+
 1. 
 ```bash
 sudo dnf install -y https://zfsonlinux.org/epel/zfs-release-2-2.el9.noarch.rpm
@@ -44,6 +47,8 @@ sudo modprobe zfs
 zfs version
 ```
 
+
+
 ## RAID
 ### 0
 - File blocks are shared between the drives
@@ -55,6 +60,7 @@ zfs version
 
 ## :link: Resources
 - [ZFS Linux](https://zfsonlinux.org/)
+- [ZFS on Linux | GitHub](https://github.com/zfsonlinux)
 - [ZFS | Wikipedia](https://en.wikipedia.org/wiki/ZFS)
 - [ZFS module | Ansible](https://docs.ansible.com/ansible/latest/collections/community/general/zfs_module.html)
 - [RHEL-based distro | openzfs.github.io](https://openzfs.github.io/openzfs-docs/Getting%20Started/RHEL-based%20distro/index.html)
