@@ -24,6 +24,8 @@ dnf repolist
 sudo dnf install -y dkms
 ```
 
+> zfs has too many dependencies (packages) vs zfs-kmod.
+
 5.
 ```bash
 sudo dnf config-manager --disable zfs
