@@ -1,6 +1,48 @@
 <img src="assets/OpenZFS_logo.svg" alt="OpenZFS logo" style="width: 450px;" align="right">
 
 # OpenZFS
+## Install
+1. 
+```bash
+sudo dnf install -y https://zfsonlinux.org/epel/zfs-release-2-2.el9.noarch.rpm
+```
+2. 
+```bash
+sudo dnf install -y epel-release
+```
+
+3.
+```bash
+dnf repolist
+```
+
+4.
+```bash
+sudo dnf install -y dkms
+```
+
+5.
+```bash
+sudo dnf config-manager --disable zfs
+```
+```bash
+sudo dnf config-manager --enable zfs-kmod
+```
+
+6.
+```bash
+sudo dnf install zfs -y
+```
+
+7.
+```bash
+sudo modprobe zfs
+```
+
+8. Check ZFS version: 
+```bash
+zfs version
+```
 
 ## RAID
 ### 0
@@ -12,6 +54,7 @@
 > This can be configured with ZFS0
 
 ## :link: Resources
+- [ZFS Linux](https://zfsonlinux.org/)
 - [ZFS | Wikipedia](https://en.wikipedia.org/wiki/ZFS)
 - [ZFS module | Ansible](https://docs.ansible.com/ansible/latest/collections/community/general/zfs_module.html)
 - [RHEL-based distro | openzfs.github.io](https://openzfs.github.io/openzfs-docs/Getting%20Started/RHEL-based%20distro/index.html)
