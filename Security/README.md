@@ -3,6 +3,8 @@
 # Security | Linux | Quickstarts
 
 ## Resources
+### Related Quickstarts
+- [Cybersecurity](https://github.com/jnbdz/cybersecurity-quickstarts) - Helpful for a more well rounded cybersecurity notes
 ### Videos
 - [Getting strategic about security | RedHat | YoutTube](https://www.youtube.com/watch?v=ZNoH4p66m78)
 - [End-to-end OpenSCAP for automated compliance | RedHat | YouTube](https://www.youtube.com/watch?v=xmTt0MvyYQ8)
