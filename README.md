@@ -1,6 +1,6 @@
 <img src="assets/Tux.svg" alt="Linux (Tux)" style="width: 450px;" align="right">
 
-# linux-quickstarts
+# Linux | Quickstarts
 Linux Quickstarts... Some of my past notes.
 
 Contains command lists with some example of usage. Also this repo includes useful links related to Linux.
