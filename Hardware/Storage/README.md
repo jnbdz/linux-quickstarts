@@ -1,6 +1,6 @@
 <img src="assets/1280px-SixHardDriveFormFactors.jpg" alt="Six Hard Drive Form Factors" style="width: 450px;" align="right">
 
-# Storage | Linux | Quickstarts
+# Storage | Hardware | Linux | Quickstarts
 
 ## Install Debian on a USB
 Download: 

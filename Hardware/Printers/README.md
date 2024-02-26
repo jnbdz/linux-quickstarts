@@ -1,6 +1,6 @@
-<img src="../assets/Nintendo_PocketPrinter.jpg" alt="Nintendo printer" style="width: 280px;" align="right">
+<img src="./assets/linux-print.webp" alt="Linux and printers" style="width: 380px;" align="right">
 
-# Printers | Linux | Quickstarts
+# Printers | Hardware | Linux | Quickstarts
 CUPS control panel: http://127.0.0.1:631/
 
 ## Resources
