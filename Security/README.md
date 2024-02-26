@@ -1,4 +1,4 @@
-<img src="../assets/linux-security.png" alt="Linux Security" style="width: 280px;" align="right">
+<img src="../assets/linux-security.png" alt="Linux Security" style="width: 380px;" align="right">
 
 # Security | Linux | Quickstarts
 
