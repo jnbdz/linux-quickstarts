@@ -18,7 +18,3 @@ Contains command lists with some example of usage. Also this repo includes usefu
 - [Welcome to LWN.net [LWN.net]](https://lwn.net/) - Has regular kernel development coverage and API change information.
 - [Kernel Traffic](http://www.kerneltraffic.org/) - Has weekly summaries of discussions on Linux kernel development mailing list.
 - [Linux_Kernel_Newbies - Linux Kernel Newbies](https://kernelnewbies.org/) - For new kernel developers. It contains beginning information, a FAQ, and an associated IRC channel for those looking for assistance.
-### UPS
-- [UPS HOWTO | The Linux Documentation Project](https://tldp.org/HOWTO/html_single/UPS-HOWTO/)
-- [apcupsd | A daemon for controlling APC UPSes](http://www.apcupsd.org/)
-- [Network UPS Tools - Welcome](https://networkupstools.org/)
