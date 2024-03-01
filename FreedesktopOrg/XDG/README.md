@@ -14,6 +14,15 @@ Useful for getting all the applications that you have installed on your system.
 
 Some applications `.desktop` setting file will need to be added manually.
 
+## List All That Support a MIME Type
+```bash
+grep -irl "application/pdf" /usr/share/applications/ ~/.local/share/applications/ | grep .desktop
+```
+
+> Note: I added `grep .desktop` because it also adds to the list `mimeinfo.cache` and potentially other files that have nothing to do an application ref.
+
+> To get file MIME type: `file --mime-type [FILE]`.
+
 ## MIME Apps
 - `/etc/xdg/mimeapps.list`
 - `~/.local/share/applications/mimeapps.list`

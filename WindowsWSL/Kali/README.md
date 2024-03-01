@@ -1,17 +1,21 @@
 # Kali | Windows WSL | Linux | Quickstarts
 
 ## Change Window Manager
-Step 1: 
+**Step 1:** 
 ```bash
-
+sudo vim /etc/wsl.conf
+```
+You might need the systemd activated: 
+```ini
+[boot]
+systemd=true
 ```
 
-Step 2:
+**Step 2:** 
 ```bash
 sudo vim /usr/lib/win-kex/xstartup
 ```
-
-Step 3: 
+From this configuration file you can change the WM you want to use: 
 ```bash
 #!/bin/sh
 
