@@ -25,3 +25,10 @@ Sometimes the Linux on the WSL sometimes loses track of time.
 ```bash
 alias fixtime="sudo hwclock -s"
 ```
+
+### NTP Solution
+```bash
+sudo apt update
+sudo apt install ntpdate
+sudo ntpdate time.windows.com
+```
