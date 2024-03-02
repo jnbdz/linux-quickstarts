@@ -56,6 +56,8 @@ wsl -d <DistroName>
 ```
 
 ## Resize the virtual hard disk (VHD)
+Sometimes, for some odd reason it is unable to resize on its own the VHD. So in those situations you will need to follow these steps: 
+
 1. Ensure that the WSL instance is completely stopped. You can do this by running `wsl --shutdown` in the Windows command prompt. Or using `wsl -t <Distro Name>`.
 2. Open PowerShell as Administrator.
 3. Find the `<VHDPath>`. It should find it here: `C:\Users\<UserName>\AppData\Local\Packages\<DistroNameAndHash>\LocalStorage\ext4.vhdx`. It might vary.
