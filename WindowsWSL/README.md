@@ -32,3 +32,36 @@ sudo apt update
 sudo apt install ntpdate
 sudo ntpdate time.windows.com
 ```
+
+## WSL2 Basic Commands
+View all the distros: 
+```powershell
+wsl -l -v
+```
+
+Shutdown everything:
+```powershell
+wsl --shutdown
+```
+> I have had issues with this command. It just doesn't seem to work. On the other hand the termination of a specific distro seems to work.
+
+Terminate a specific distro: 
+```powershell
+wsl -t <Distro Name>
+```
+
+Boot up a specific distro: 
+```powershell
+wsl -d <DistroName>
+```
+
+## Resize the virtual hard disk (VHD)
+1. Ensure that the WSL instance is completely stopped. You can do this by running `wsl --shutdown` in the Windows command prompt. Or using `wsl -t <Distro Name>`.
+2. Open PowerShell as Administrator.
+3. Find the `<VHDPath>`. It should find it here: `C:\Users\<UserName>\AppData\Local\Packages\<DistroNameAndHash>\LocalStorage\ext4.vhdx`. It might vary.
+4. Run the command: 
+```powershell
+Optimize-VHD -Path <VHDPath> -Mode Full
+```
+Sources: 
+- [Optimize-VHD | Learn | Microsoft](https://learn.microsoft.com/en-us/powershell/module/hyper-v/optimize-vhd?view=windowsserver2022-ps)
