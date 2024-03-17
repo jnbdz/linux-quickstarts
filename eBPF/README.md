@@ -5,6 +5,11 @@
 ## Performance tools
 ![](./assets/bpf_performance_tools_book.png)
 
+## Documents
+### Slides
+- [BPF Internals | Tracing Examples | Netflix](./Documents/lisa21_slides_gregg_bpf.pdf)
+  - Source: https://www.usenix.org/system/files/lisa21_slides_gregg_bpf.pdf
+
 ## Resources
 ### Documentation
 - [eBPF Documentation | ebpf.io](https://ebpf.io/what-is-ebpf/)
