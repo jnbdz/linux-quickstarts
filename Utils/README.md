@@ -1,6 +1,8 @@
 <img src="assets/linux-utils.webp" alt="Linux Utils" style="width: 380px;" align="right">
 
 # Utils | Linux | Quickstarts
+## Job Control: &, disown, and nohup
+
 
 ## Screenshot & Screencast
 ### Kali
