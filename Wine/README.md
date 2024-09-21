@@ -86,8 +86,9 @@ sudo apt install wine-staging
 ```
 
 ## 📦 Install Wine mono
-
-
+```bash
+wine msiexec /i wine-mono-9.0.0-x86.msi
+```
 
 ## Resources
 - [wine | gitlab](https://gitlab.winehq.org/wine/wine/)
