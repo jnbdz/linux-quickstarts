@@ -1,6 +1,23 @@
 <img src="assets/wine.svg" alt="Wine" style="width: 380px;" align="right">
 
 # Wine | Linux | Quickstarts
+## Quickstart
+### Bottles
+- [Bottles](https://usebottles.com/) - Helps with managing the running of Windows applications whilst using different versions of Wine (and other tools) and settings. Making it simple to get up and running with Windows applications.
+  - [Docs | Bottles](https://docs.usebottles.com/)
+  - [Bottles | GitHub](https://github.com/bottlesdevs/Bottles) - Coded in Python
+
+> A quick way to install it is with Flatpack but I have had bad experience with that package manager.
+
+### Install & Run Wine
+```bash
+sudo apt install wine
+```
+
+Applications are installed in: `~/.wine`
+
+> There might be situations where you need to delete `~/.wine` since there is an error. So to not have to re-install and reconfigure everything you can: `mv ~/.wine ~/.wine.old`.
+
 ## Install Wine
 Compile `wine`: 
 ```bash
