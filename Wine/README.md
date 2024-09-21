@@ -27,6 +27,13 @@ Applications are installed in: `~/.wine`
 - `wine-mono`
 
 ## 📦 Install Wine
+Install packages: 
+```bash
+sudo apt-get install gcc-multilib g++-multilib wine32:i386 libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+```
+
+> TODO: More to add...
+
 Compile `wine`: 
 ```bash
 ./configure
