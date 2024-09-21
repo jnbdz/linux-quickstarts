@@ -1,15 +1,15 @@
 <img src="assets/wine.svg" alt="Wine" style="width: 380px;" align="right">
 
-# Wine | Linux | Quickstarts
+# 🍷 Wine | Linux | Quickstarts
 ## Quickstart
-### Bottles
+### 🍾 Bottles
 - [Bottles](https://usebottles.com/) - Helps with managing the running of Windows applications whilst using different versions of Wine (and other tools) and settings. Making it simple to get up and running with Windows applications.
   - [Docs | Bottles](https://docs.usebottles.com/)
   - [Bottles | GitHub](https://github.com/bottlesdevs/Bottles) - Coded in Python
 
 > A quick way to install it is with Flatpack but I have had bad experience with that package manager.
 
-### Install & Run Wine
+### 📦 Install & Run Wine
 ```bash
 sudo apt install wine
 ```
@@ -18,7 +18,12 @@ Applications are installed in: `~/.wine`
 
 > There might be situations where you need to delete `~/.wine` since there is an error. So to not have to re-install and reconfigure everything you can: `mv ~/.wine ~/.wine.old`.
 
-## Install Wine
+## 🛠️ Tools
+- [Winetricks](https://github.com/Winetricks/winetricks)
+- `wine-staging`
+- `wine-mono`
+
+## 📦 Install Wine
 Compile `wine`: 
 ```bash
 ./configure
@@ -51,7 +56,7 @@ cd dlls/kernel32
 make -j$(nproc)
 ```
 
-### Using caching with `ccache`
+### 💾 Using caching with `ccache`
 Install `ccache`: 
 ```bash
 sudo apt install ccache
@@ -77,7 +82,7 @@ sudo apt install distcc
 sudo apt install wine-staging
 ```
 
-## Install Wine mono
+## 📦 Install Wine mono
 
 
 
