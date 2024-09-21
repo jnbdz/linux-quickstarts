@@ -18,6 +18,9 @@ Applications are installed in: `~/.wine`
 
 > There might be situations where you need to delete `~/.wine` since there is an error. So to not have to re-install and reconfigure everything you can: `mv ~/.wine ~/.wine.old`.
 
+#### 📝 Documentations
+- [Wine Installation and Configuration | Wikis | GitLab | WineHQ](https://gitlab.winehq.org/wine/wine/-/wikis/Wine-Installation-and-Configuration)
+
 ## 🛠️ Tools
 - [Winetricks](https://github.com/Winetricks/winetricks)
 - `wine-staging`
